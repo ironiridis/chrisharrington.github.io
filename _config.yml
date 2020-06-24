@@ -1,1 +1,30 @@
-theme: jekyll-theme-slate
+host: 0.0.0.0
+
+title: Chris Harrington
+email: hire.chris.harrington@gmail.com
+description: >-
+  Chris Harrington is a developer in Minneapolis, MN with experience in Go (aka Golang),
+  PostgreSQL, JavaScript, C, and other languages.
+baseurl: ""
+url: "https://chris.harrington.mn"
+twitter_username: ironiridis
+github_username: ironiridis
+
+# Build settings
+markdown: kramdown
+theme: minima
+#theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
