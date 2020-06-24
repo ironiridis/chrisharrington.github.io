@@ -6,7 +6,7 @@ permalink: /about/
 
 This site was built <span id="buildtimestamp">{{ site.time }}</span>. It is hosted on [GitHub Pages](https://pages.github.com), which is an absolutely free static page hosting service. The source code to this site is [in my portfolio repo]({{ site.origin }}).
 
-GitHub Pages, and by extension this site, utilize the amazing [Jekyll static site generator](https://jekyllrb.com/). According to its [Wikipedia article](https://en.wikipedia.org/wiki/Jekyll_(software)), it is the most popular static site generator, and for good reason.
+GitHub Pages, and by extension this site, utilize the amazing [Jekyll static site generator](https://jekyllrb.com/). According to its [Wikipedia article](https://en.wikipedia.org/wiki/Jekyll_%28software%29), it is the most popular static site generator, and for good reason.
 
 This site is being rendered using a theme called {{ site.theme }}.
 
