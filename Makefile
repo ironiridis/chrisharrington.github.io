@@ -1,12 +1,13 @@
 deps :
 	mkdir -p vendor/bundle
-	bundle set path vendor/bundle/
+	bundle config set --local path vendor/bundle/
 	bundle install
 
 rmdeps :
 	rm -rf vendor/bundle Gemfile.lock
 
 update :
+	bundle config set --local path vendor/bundle/
 	bundle update --all
 	bundle clean
 
