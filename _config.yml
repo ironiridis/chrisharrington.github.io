@@ -13,8 +13,9 @@ github_username: ironiridis
 
 # Build settings
 markdown: kramdown
-theme: minima
-#theme: jekyll-theme-slate
+#theme: minima
+# use 2.5.1 with custom-head feature cherrypicked
+remote_theme: ironiridis/minima
 plugins:
   - jekyll-feed
 
