@@ -17,4 +17,4 @@ Let's say we want to deal with these duplicates or similar images with some busi
 * Be as fast, efficient, and accurate as possible.
 
 ### Approach
-In this series, we will use Go. It has [exhaustive support for S3](https://godoc.org/github.com/aws/aws-sdk-go/service/s3), natural support for multi-core processing, and is a joy to use. In part 2, we will start with a naive comparison approach that fails many of our requirements above. In the following parts, we will refine until we have a reusable tool.
+In this series, we will use Go. It has [exhaustive support for S3](https://godoc.org/github.com/aws/aws-sdk-go/service/s3), natural support for multi-core processing, and is a joy to use. [In part 2](/project/dupeimages/2020/07/04/duplicate-images-part2.html), we start with a naive comparison approach that fails many of our requirements above. In the following parts, we will refine until we have a reusable tool.
