@@ -12,6 +12,10 @@ Next, you'll want to ensure you have `bundler`, `git`, and `make`. As root, or v
 
     emerge -au dev-ruby/bundler dev-vcs/git sys-devel/make
 
+### Setting up Ruby, Bundler, Git, and Make on Debian-ish Linux
+I'm using Debian under WSL2 for this, and that comes with some caveats. But generally speaking, we'll need `ruby`, `bundler`, `git`, and `make`. You can run (as root, or via `sudo`):
+
+    apt install build-essential ruby-full bundler git
 
 ## Install
 Find a convenient location to clone the repo, and run:
