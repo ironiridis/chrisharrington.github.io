@@ -10,7 +10,7 @@ url: "https://chris.harrington.mn"
 origin: "https://github.com/ironiridis/portfolio"
 mastodon:
   - username: ironiridis
-    instance: mpssocial.net
+    instance: mspsocial.net
 github_username: ironiridis
 
 # Build settings
