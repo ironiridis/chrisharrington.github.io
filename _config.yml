@@ -8,7 +8,9 @@ description: >-
 baseurl: ""
 url: "https://chris.harrington.mn"
 origin: "https://github.com/ironiridis/portfolio"
-twitter_username: ironiridis
+mastodon:
+  - username: ironiridis
+    instance: mpssocial.net
 github_username: ironiridis
 
 # Build settings
