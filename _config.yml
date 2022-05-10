@@ -12,6 +12,7 @@ mastodon:
   - username: ironiridis
     instance: mspsocial.net
 github_username: ironiridis
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
