@@ -16,7 +16,7 @@ This site does not use any sort of tracking software, including cookies, nor doe
 function buildtimereplace() {
     try {
         n = document.getElementById('buildtimestamp');
-        m = moment(n.innerText);
+        m = moment(n.innerText, "YYYY-MM-DD HH:mm:ss Z");
         if (!m.isValid()) {
             console.log("Moment.js does not think", n.innerText, "is valid, leaving as-is")
             return;
