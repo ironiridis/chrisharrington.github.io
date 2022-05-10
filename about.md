@@ -10,7 +10,7 @@ GitHub Pages, and by extension this site, utilize the amazing [Jekyll static sit
 
 This site is being rendered using [a fork](https://github.com/ironiridis/minima) of the theme called minima. This fork takes [the 2.5.1 release](https://github.com/jekyll/minima/releases/tag/v2.5.1) and cherry-picks [two](https://github.com/jekyll/minima/pull/433) [modifications](https://github.com/jekyll/minima/pull/468) from upstream that allow additional directives in the page &lt;head&gt; tag. With this, I added [favicon](https://en.wikipedia.org/wiki/Favicon) resources from [favicon.io](https://favicon.io/emoji-favicons/necktie/). It also cherry-picks [my own PR](https://github.com/jekyll/minima/pull/650) to support the Mastodon `rel="me"` link verification attribute.
 
-This site does not use any sort of tracking software, including cookies, nor does it feature any advertising or analytics. It does load some third-party content via CDN. There is no privacy policy, license, or warranty. All content (unless otherwise stated) is protected by United States copyright law, so please refrain from duplicating the content of this website elsewhere. I'm flattered, though, thank you.
+This site does not use any sort of tracking software, including cookies, nor does it feature any advertising or analytics, and it doesn't load any third-party content via CDN. There is no privacy policy, license, or warranty. All content (unless otherwise stated) is protected by United States copyright law, so please refrain from duplicating the content of this website.
 
 <script>
 function buildtimereplace() {
@@ -28,4 +28,4 @@ function buildtimereplace() {
     }
 }
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha256-ZsWP0vT+akWmvEMkNYgZrPHKU9Ke8nYBPC3dqONp1mY=" crossorigin="anonymous" async="async" defer="defer" onload="buildtimereplace()"></script>
+<script src="/assets/moment-2.27.0.min.js" integrity="sha256-ZsWP0vT+akWmvEMkNYgZrPHKU9Ke8nYBPC3dqONp1mY=" async="async" defer="defer" onload="buildtimereplace()"></script>
