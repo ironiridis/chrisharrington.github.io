@@ -18,7 +18,7 @@ That means we'll need to complete a handful of tasks:
 4. Connect the device to Linux
 
 ## My situation
-You should always use caution following any guide on the internet. In particular, this guide may be out of date by the time you read it. (It may also be malicious, so be careful to verify anything a guide asks you to download or run.) So you can follow along, I have WSL2 running Debian. Inside of Linux, `cat /etc/issue` reports `Debian GNU/Linux 11`, and `uname -r` reports `5.10.102.1-microsoft-standard-WSL2`. With regard to Linux, I'm currently running Windows 10 21H2 (as told by running `winver`). If yours are similar, you'll probably have success following this guide.
+You should always use caution following any guide on the internet. In particular, this guide may be out of date by the time you read it. (It may also be malicious, so be careful to verify anything a guide asks you to download or run.) So you can follow along, I have WSL2 running Debian. Inside of Linux, `cat /etc/issue` reports `Debian GNU/Linux 11`, and `uname -r` reports `5.10.102.1-microsoft-standard-WSL2`. I'm currently running Windows 10 21H2 (as reported by running `winver`). If yours are similar, you'll probably have success following this guide.
 
 ## WSL prerequisites
 Because we're going to be doing stuff that is sensitive to the kernel version you're using, it's best if we get the most up-to-date WSL2 kernel available before we go too far. This update actually happens in Windows: you will need to run this in an elevated (Administrator) Command Prompt or PowerShell:
