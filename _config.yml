@@ -12,6 +12,7 @@ mastodon:
   - username: ironiridis
     instance: mspsocial.net
 github_username: ironiridis
+linkedin_username: chrisharringtonmn
 show_excerpts: true
 
 # Build settings
